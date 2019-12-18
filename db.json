@@ -1,27 +1,75 @@
 {
-
-  "posts": [
-
-    { "id": 1, "title": "Post 1" },
-
-    { "id": 2, "title": "Post 2" },
-
-    { "id": 3, "title": "Post 3" }
-
+  "LeaveType": [
+    {
+      "id": 1,
+      "content": "Earned Leave"
+    },
+    {
+      "id": 2,
+      "content": "Sick Leave"
+    }
   ],
-
-  "comments": [
-
-    { "id": 1, "body": "some comment", "postId": 1 },
-
-    { "id": 2, "body": "some comment", "postId": 1 }
-
+  "LeaveStatus": [
+    {
+      "id": 1,
+      "content": "Approved"
+    },
+    {
+      "id": 2,
+      "content": "Not-Approved"
+    }
   ],
-
-  "profile": {
-
-    "name": "typicode"
-
-  }
-
+  "Leaves": [
+    {
+      "Ltype": 1,
+      "Leavedate": "2019-12-18T00:00:00",
+      "Lstatus": 1,
+      "Lbalance": 18,
+      "id": 1
+    },
+    {
+      "Ltype": 2,
+      "Leavedate": "2019-12-18T00:00:00",
+      "Lstatus": 1,
+      "Lbalance": 27,
+      "id": 2
+    }
+  ],
+  "NonApprovedLeaves": [
+    {
+      "id": 1,
+      "ltype": 1,
+      "fromdate": "2019-12-18",
+      "todate": "2019-12-18",
+      "reason": ""
+    },
+    {
+      "id": 2,
+      "ltype": 1,
+      "fromdate": "2019-12-18",
+      "todate": "2019-12-18",
+      "reason": ""
+    },
+    {
+      "id": 3,
+      "ltype": 1,
+      "fromdate": "2019-12-18",
+      "todate": "2019-12-18",
+      "reason": ""
+    },
+    {
+      "Ltype": 2,
+      "Fromdate": "2019-12-18T00:00:00",
+      "Todate": "2019-12-20T00:00:00",
+      "Reason": "asdasd",
+      "id": 4
+    },
+    {
+      "Ltype": 2,
+      "Fromdate": "2019-12-18T00:00:00",
+      "Todate": "2019-12-19T00:00:00",
+      "Reason": "test",
+      "id": 5
+    }
+  ]
 }
